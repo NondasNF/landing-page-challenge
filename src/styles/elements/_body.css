@@ -1,0 +1,6 @@
+body{
+  background-color: var(--primary-bg-color);
+  box-sizing:inherit;
+  font-family: var(--font-style);
+  font-size: var(--main-font-size);
+}

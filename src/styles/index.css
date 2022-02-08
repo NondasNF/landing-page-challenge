@@ -1,2 +1,32 @@
 @import 'generic/_box-sizing.css';
 @import 'generic/_resets.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+:root {
+  /* colors */
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #5683ff;
+  --primary-font-color: #151541;
+  --secondary-font-color: #46468b;
+  --yellow-1: #ffe21d;
+  --yellow-2: #ffd21d;
+  --light-blue: #24afff;
+  --blue: #248bff;
+  --red: #f26c6c;
+  --green: #27b667;
+  /* element margins */
+  --title-margin: 10px 20px 5px 15px;
+  --sub-title-margin: 20px 8px 5px 5px;
+  /* font */
+  --font-style: 'Montserrat', sans-serif;
+  --title-font-size: 30px;
+  --main-font-size: 17px;
+}
+
+body{
+  background-color: var(--primary-bg-color);
+  box-sizing:inherit;
+  font-family: var(--font-style);
+  font-size: var(--main-font-size);
+}
+

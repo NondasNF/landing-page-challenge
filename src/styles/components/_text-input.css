@@ -1,4 +1,4 @@
-.input__text{
+.c-input__text{
   border-radius: 30px;
   width: 200px;
   height: 30px;
@@ -7,20 +7,23 @@
   margin:var(--general-margin);
   padding: 0 0 0 20px;
 }
-.input__text:focus{
+.c-input__text:focus{
   border: solid 2px var(--secondary-bg-color);
 }
-.input__text:disabled{
+.c-input__text:disabled{
   cursor:default;
-}
+} 
 
-.input__text.error {
+.c-input__text--error {
   background-color: var(--alert-color);
+  color: var(--red-1);
 }
-.input__text.successful {
+.c-input__text--successful {
   background-color: var(--successful-color);
+  color: var(--green-1);
 }
-.input__text.attention{
+.c-input__text--attention{
   background-color: var(--attention-color);
+  color: var(--yellow-2);
 }
 

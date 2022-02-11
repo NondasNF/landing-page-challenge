@@ -4,20 +4,25 @@
   --secondary-bg-color: #5683ff;
   --primary-font-color: #151541;
   --secondary-font-color: #46468b;
+<<<<<<< HEAD
   --tertiary-font-color: #202020;
+=======
+  --black: #000000;
+  --white: #ffffff;
+>>>>>>> 3adc0bc (BEM css and some elements styles  fixes)
   --yellow-1: #ffe21d;
   --yellow-2: #ffd21d;
-  --light-blue: #24afff;
-  --blue: #248bff;
-  --red: #f26c6c;
-  --green: #27b667;
-  --alert-color: #ebd2d2;
-  --successful-color: #d3ecd3;
-  --attention-color:#e0d7b2; 
+  --blue-1: #24afff;
+  --blue-2: #248bff;
+  --red-1: #f26c6c;
+  --green-1: #27b667;
+  --alert-color: #f3e5e5;
+  --successful-color: #dae7e5;
+  --attention-color:#ebe8df; 
   /* element margins */
   --title-margin: 10px 20px 5px 15px;
   --sub-title-margin: 20px 8px 5px 5px;
-  --general-margin: 20px;
+  --general-margin: 20px 20px 0 10px; 
   --general-padding: 45px;
   /* font */
   --font-style: 'Montserrat', sans-serif;

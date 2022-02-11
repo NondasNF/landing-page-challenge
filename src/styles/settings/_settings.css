@@ -16,7 +16,7 @@
   --alert-color: #f3e5e5;
   --successful-color: #dae7e5;
   --attention-color:#ebe8df; 
-  /* element margins */
+  /* element margins and paddings*/
   --title-margin: 10px 20px 5px 15px;
   --sub-title-margin: 20px 8px 5px 5px;
   --general-margin: 20px 20px 0 10px; 

@@ -4,7 +4,8 @@
   height: 30px;
   border: 0;
   outline: none;
-  margin:var(--general-margin)
+  margin:var(--general-margin);
+  padding: 0 0 0 20px;
 }
 .input__text:focus{
   border: solid 2px var(--secondary-bg-color);

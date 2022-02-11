@@ -18,13 +18,26 @@
     <div class="header-links">
       <a class="header-links__home" href="/">HOME</a>
       <a class="header-links__about" href="/about">ABOUT</a>
-      <a class="header-links__benefits" href="/benefits">BENEFITS</a>
+      <a class="header-links__benefits"href="#benefits">BENEFITS</a>
     </div>
-    <button class="button__custom">APPLY NOW</button>
+    <button class="button__custom"><a href="#section__contact">APPLY NOW</a></button>
   </header>
   <main class="main-content" >
     <h1 class="main-information">Trainee Program 2022</h1>
   </main>
+  <section id="section__contact">
+    <h2>Join the program</h2>
+    <span>It's time to change your life, improve your skills working with an amazing team.</span>
+    <form class="contact__form">
+      <label for="input-name">Full name:</label>
+      <input type="text" class="input__text name" id="input-name" placeholder="Name"/>
+      <label for="input-email">E-mail:</label>
+      <input type="text" class="input__text email" id="input-email" placeholder="user@email.com"/>
+      <label for="input-resume">Resume of your experiences:</label>
+      <textarea cols="30" rows="5" class="input__text resume" id="input-resume" placeholder="I starting programming..."></textarea>
+      <button type="submit" class="button__custom">SUBMIT</button>
+    </form>
+  </section>
 </body>
 
 </html>

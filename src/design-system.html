@@ -14,17 +14,21 @@
 
 <body>
   <h1>Design System</h1>
-  <div class="buttons">
-    <button class="button__custom">Button</button>
-    <button disabled active class="button__custom">Button</button>
+  <div class="c-button">
+    <button class="c-button__custom c-button__custom--yellow">Button</button>
+    <button disabled active class="c-button__custom c-button__custom--yellow">Button</button>
+    <br>
+    <button class="c-button__custom c-button__custom--blue">Button</button>
+    <button disabled active class="c-button__custom c-button__custom--blue">Button</button>
+
   </div>
-  <div class="inputs">
-    <input type="text" class="input__text" placeholder="Type anything"></input>
-    <input disabled type="text" class="input__text" placeholder="Input disabled"></input>
-    <div class="inputs__status">
-      <input type="text" class="input__text successful" placeholder="Input successful"></input>
-      <input type="text" class="input__text error" placeholder="Input Error"></input>
-      <input type="text" class="input__text attention" placeholder="This needs your attention"></input>
+  <div class="c-input">
+    <input type="text" class="c-input__text" placeholder="Type anything"></input>
+    <input disabled type="text" class="c-input__text" placeholder="Input disabled"></input>
+    <div class="c-input__status">
+      <input type="text" class="c-input__text c-input__text--successful" value="Input successful" placeholder="Type anything"></input>
+      <input type="text" class="c-input__text c-input__text--error" value="Input Error" placeholder="Type anything"></input>
+      <input type="text" class="c-input__text c-input__text--attention" value="This needs your attention" placeholder="Type anything"></input>
     </div>
   </div>
 </body>

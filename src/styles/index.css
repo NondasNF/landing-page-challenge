@@ -5,8 +5,16 @@
 @import 'elements/_header.css';
 @import 'elements/_a.css';
 @import 'elements/_section.css';
+<<<<<<< HEAD
+=======
+@import 'elements/_form.css';
+>>>>>>> c257016 (initial contant section config)
 @import 'components/_button.css';
 @import 'components/_text-input.css';
 @import 'components/_contact-form.css';
 @import 'components/_main-content.css';
 @import 'components/_header-links.css';
+<<<<<<< HEAD
+=======
+@import 'components/_section-form.css';
+>>>>>>> c257016 (initial contant section config)

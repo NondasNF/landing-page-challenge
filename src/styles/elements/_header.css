@@ -6,8 +6,3 @@ header {
   position:absolute;
   width: 100%;
 }
-.header-links {
-  width: 30vw;
-  display: flex;
-  justify-content: space-between;
-}

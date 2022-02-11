@@ -1,0 +1,8 @@
+.c-header__links {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+}
+.c-header__button {
+  color: var(--white);
+}

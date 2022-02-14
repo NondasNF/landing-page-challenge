@@ -1,0 +1,13 @@
+.c-footer__button{
+  position: absolute;
+  right: var(--general-padding);
+  display: flex;
+  align-items: center;
+}
+.c-footer__top-indication{
+  background: url(../../assets/topo.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 20px;
+}

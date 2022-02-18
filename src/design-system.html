@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
-    <title>Design System</title>
-  </head>
-  <body>
-    <h1>Design System</h1>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+  <title>Design System</title>
+</head>
+
+<body>
+  <h1>Design System</h1>
+  <div class="c-button">
+    <button class="c-button__custom c-button__custom--yellow">Button</button>
+    <button disabled active class="c-button__custom c-button__custom--yellow">Button</button>
+    <br>
+    <button class="c-button__custom c-button__custom--blue">Button</button>
+    <button disabled active class="c-button__custom c-button__custom--blue">Button</button>
+
+  </div>
+  <div class="c-input">
+    <input type="text" class="c-input__text" placeholder="Type anything"></input>
+    <input disabled type="text" class="c-input__text" placeholder="Input disabled"></input>
+    <div class="c-input__status">
+      <input type="text" class="c-input__text c-input__text--successful" value="Input successful" placeholder="Type anything"></input>
+      <input type="text" class="c-input__text c-input__text--error" value="Input Error" placeholder="Type anything"></input>
+      <input type="text" class="c-input__text c-input__text--attention" value="This needs your attention" placeholder="Type anything"></input>
+    </div>
+  </div>
+</body>
+
 </html>

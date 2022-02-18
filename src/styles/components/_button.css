@@ -1,0 +1,39 @@
+.c-button__custom{ 
+  border-radius: 30px;
+  background: none;
+  width: 100px;
+  height: 45px;
+}
+.c-button__custom--yellow{ 
+  border: solid 2px var(--yellow-1);
+}
+.c-button__custom--yellow:hover{
+  background: var(--yellow-1);
+  cursor: pointer;
+}
+.c-button__custom--yellow:active{
+  background: var(--yellow-2);
+}
+.c-button__custom--yellow:disabled{
+  filter: grayscale(60%);
+  background: var(--yellow-1);
+  cursor:default;
+}
+.c-button__custom--blue{ 
+  border: solid 2px var(--blue-1);
+}
+.c-button__custom--blue:hover{
+  background: var(--blue-1);
+  cursor: pointer;
+  color: var(--white)
+}
+.c-button__custom--blue:active{
+  background: var(--blue-2);
+  color: var(--white)
+}
+.c-button__custom--blue:disabled{
+  filter: grayscale(60%);
+  background: var(--blue-1);
+  cursor:default;
+  color: var(--white)
+}

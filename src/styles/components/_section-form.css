@@ -1,0 +1,12 @@
+.c-section__form__input {
+  width: 350px;
+  padding-top:5px;
+}
+.c-section__form__input--resume {
+  height: 100px;
+  border-radius: 15px;
+}
+.c-section__form__submit,
+.c-section__form__label {
+  margin: var(--general-margin);
+}
